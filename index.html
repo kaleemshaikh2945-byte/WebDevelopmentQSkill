@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RazorPay Clone | Payments. Banking+. Payroll.</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== TOP UTILITY BAR ===== -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <span>🇮🇳 Made for Indian businesses</span>
+    <div class="topbar-links">
+      <a href="#">Contact Sales</a>
+      <a href="#">Support</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="#" class="logo">
+      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="28" height="28" rx="7" fill="#3395FF"/>
+        <path d="M9 20L19 8H14.5L9 15H13L9 20Z" fill="white"/>
+      </svg>
+      <span>Razor<b>Pay</b></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <div class="nav-item dropdown">
+        <button class="nav-btn">Payments <i>▾</i></button>
+        <div class="dropdown-menu">
+          <a href="#">Payment Gateway</a>
+          <a href="#">Payment Links</a>
+          <a href="#">Payment Pages</a>
+          <a href="#">Smart Collect</a>
+        </div>
+      </div>
+      <div class="nav-item dropdown">
+        <button class="nav-btn">Banking+ <i>▾</i></button>
+        <div class="dropdown-menu">
+          <a href="#">Current Account</a>
+          <a href="#">RazorpayX Payroll</a>
+          <a href="#">Corporate Cards</a>
+        </div>
+      </div>
+      <div class="nav-item"><a href="#">Payroll</a></div>
+      <div class="nav-item"><a href="#">Partners</a></div>
+      <div class="nav-item"><a href="#">Resources</a></div>
+      <div class="nav-item"><a href="#">Support</a></div>
+      <div class="nav-item"><a href="#">Pricing</a></div>
+    </nav>
+
+    <div class="navbar-actions">
+      <button class="btn btn-ghost" id="loginBtn">Login</button>
+      <button class="btn btn-primary" id="signupBtn">Sign Up <i>▾</i></button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- mobile nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#">Payments</a>
+    <a href="#">Banking+</a>
+    <a href="#">Payroll</a>
+    <a href="#">Partners</a>
+    <a href="#">Resources</a>
+    <a href="#">Support</a>
+    <a href="#">Pricing</a>
+    <button class="btn btn-ghost">Login</button>
+    <button class="btn btn-primary">Sign Up</button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <h1>Easy In-Person Payments <br> for India's finest disruptors</h1>
+      <p>Quick payments &middot; Seamless integration &middot; Top-tier UPI stack</p>
+      <div class="hero-cta">
+        <button class="btn btn-primary btn-lg" id="heroSignup">Sign Up Now <i>→</i></button>
+        <button class="btn btn-outline btn-lg">Know More</button>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="pos-card">
+        <div class="pos-badge">Razorpay POS</div>
+        <svg width="120" height="180" viewBox="0 0 120 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="4" width="112" height="172" rx="16" fill="#0B1F3A"/>
+          <rect x="14" y="18" width="92" height="110" rx="8" fill="#3395FF"/>
+          <circle cx="60" cy="150" r="10" fill="#fff" opacity="0.9"/>
+          <rect x="26" y="34" width="68" height="10" rx="2" fill="white" opacity="0.85"/>
+          <rect x="26" y="50" width="46" height="8" rx="2" fill="white" opacity="0.6"/>
+        </svg>
+        <span class="pos-caption">Now Verified</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-dots">
+    <span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+  </div>
+</section>
+
+<!-- ===== QUICK ACTIONS STRIP ===== -->
+<section class="quick-strip">
+  <div class="container quick-strip-inner">
+    <div class="quick-item">
+      <span class="quick-icon">👤</span>
+      <div>
+        <strong>I'm here to</strong>
+        <p>Explore what fits your business</p>
+      </div>
+    </div>
+    <a href="#" class="quick-item link">Accept Payments</a>
+    <a href="#" class="quick-item link">Make Payments</a>
+    <a href="#" class="quick-item link">Start Business Banking</a>
+    <a href="#" class="quick-item link">Get Credit Loans</a>
+    <a href="#" class="quick-item link">Automate Payroll</a>
+  </div>
+</section>
+
+<!-- ===== TRUSTED BY ===== -->
+<section class="trusted">
+  <div class="container">
+    <p class="section-eyebrow">Trusted by 2 crore+ businesses</p>
+    <div class="logo-row">
+      <span>ZOMATO</span><span>OYO</span><span>ZERODHA</span><span>SWIGGY</span><span>CRED</span><span>GROWW</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRODUCT TABS ===== -->
+<section class="products" id="products">
+  <div class="container">
+    <h2 class="section-title">One stack. Every payment need.</h2>
+    <p class="section-sub">Switch between our core products to see how they fit your business.</p>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="gateway">Payment Gateway</button>
+      <button class="tab" data-tab="banking">Banking+</button>
+      <button class="tab" data-tab="payroll">Payroll</button>
+      <button class="tab" data-tab="pos">POS</button>
+    </div>
+
+    <div class="tab-panels">
+      <div class="tab-panel active" id="gateway">
+        <div class="panel-grid">
+          <div>
+            <h3>Accept payments in 100+ modes</h3>
+            <p>Cards, UPI, Netbanking, Wallets and EMI — plug in once, accept everywhere. Built-in fraud detection keeps every transaction safe.</p>
+            <ul class="check-list">
+              <li>Instant activation for eligible businesses</li>
+              <li>99.99% uptime SLA</li>
+              <li>Smart routing for higher success rates</li>
+            </ul>
+          </div>
+          <div class="panel-visual gateway-visual">💳</div>
+        </div>
+      </div>
+      <div class="tab-panel" id="banking">
+        <div class="panel-grid">
+          <div>
+            <h3>Banking made for businesses</h3>
+            <p>Open a current account, issue corporate cards and automate vendor payouts — all from a single dashboard.</p>
+            <ul class="check-list">
+              <li>Zero balance current accounts</li>
+              <li>Corporate cards with spend controls</li>
+              <li>Bulk payouts in a click</li>
+            </ul>
+          </div>
+          <div class="panel-visual banking-visual">🏦</div>
+        </div>
+      </div>
+      <div class="tab-panel" id="payroll">
+        <div class="panel-grid">
+          <div>
+            <h3>Payroll that runs itself</h3>
+            <p>Automate salary payouts, compliance filing and employee benefits without spreadsheets.</p>
+            <ul class="check-list">
+              <li>One-click salary disbursal</li>
+              <li>Auto PF, PT & TDS compliance</li>
+              <li>Employee self-service portal</li>
+            </ul>
+          </div>
+          <div class="panel-visual payroll-visual">👥</div>
+        </div>
+      </div>
+      <div class="tab-panel" id="pos">
+        <div class="panel-grid">
+          <div>
+            <h3>Point of Sale, reimagined</h3>
+            <p>Accept in-person payments with a device built for speed — QR, tap, card or UPI, all in one.</p>
+            <ul class="check-list">
+              <li>Instant settlement options</li>
+              <li>Offline mode support</li>
+              <li>Real-time sales dashboard</li>
+            </ul>
+          </div>
+          <div class="panel-visual pos-visual">📟</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat-card">
+      <span class="stat-num" data-target="20">0</span><span class="stat-suffix">M+</span>
+      <p>Businesses onboarded</p>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num" data-target="100">0</span><span class="stat-suffix">+</span>
+      <p>Payment modes supported</p>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num" data-target="99">0</span><span class="stat-suffix">.99%</span>
+      <p>Platform uptime</p>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num" data-target="24">0</span><span class="stat-suffix">/7</span>
+      <p>Customer support</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="testimonials">
+  <div class="container">
+    <h2 class="section-title">Businesses that grew with us</h2>
+    <div class="testimonial-carousel">
+      <button class="carousel-btn" id="prevTestimonial">‹</button>
+      <div class="testimonial-track" id="testimonialTrack">
+        <div class="testimonial-card">
+          <p>"Switching our checkout took less than a day. Our payment success rate jumped noticeably in the first month."</p>
+          <strong>— Founder, D2C Fashion Brand</strong>
+        </div>
+        <div class="testimonial-card">
+          <p>"Payroll used to take our HR team two full days every month. Now it's done before lunch."</p>
+          <strong>— Ops Lead, SaaS Startup</strong>
+        </div>
+        <div class="testimonial-card">
+          <p>"The current account and payment gateway being on one dashboard removed so much manual reconciliation."</p>
+          <strong>— Finance Head, EdTech Company</strong>
+        </div>
+      </div>
+      <button class="carousel-btn" id="nextTestimonial">›</button>
+    </div>
+    <div class="carousel-dots" id="carouselDots"></div>
+  </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+  <div class="container cta-banner-inner">
+    <div>
+      <h2>Ready to simplify your business finances?</h2>
+      <p>Get started in minutes. No paperwork headaches.</p>
+    </div>
+    <div class="cta-form">
+      <input type="tel" id="ctaPhone" placeholder="Enter mobile number" maxlength="10">
+      <button class="btn btn-primary" id="ctaSubmit">Get Started →</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="logo">
+        <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="28" height="28" rx="7" fill="#3395FF"/>
+          <path d="M9 20L19 8H14.5L9 15H13L9 20Z" fill="white"/>
+        </svg>
+        <span>Razor<b>Pay</b></span>
+      </a>
+      <p>Powering payments, banking and payroll for businesses across India.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Products</h4>
+      <a href="#">Payment Gateway</a>
+      <a href="#">Payment Links</a>
+      <a href="#">Banking+</a>
+      <a href="#">Payroll</a>
+      <a href="#">POS</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">About Us</a>
+      <a href="#">Careers</a>
+      <a href="#">Blog</a>
+      <a href="#">Press</a>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <a href="#">Docs</a>
+      <a href="#">API Reference</a>
+      <a href="#">Pricing</a>
+      <a href="#">Support</a>
+    </div>
+    <div class="footer-col">
+      <h4>Get the app</h4>
+      <div class="app-badges">
+        <span class="app-badge">App Store</span>
+        <span class="app-badge">Google Play</span>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 RazorPay Clone — built for learning purposes only.</span>
+    <div class="social-links">
+      <a href="#">X</a><a href="#">in</a><a href="#">ig</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
